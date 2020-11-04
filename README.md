@@ -1,16 +1,18 @@
 # CodePlus.Abp.Castle.NLog
 
 [![nuget](https://img.shields.io/nuget/v/CodePlus.Abp.Castle.NLog.svg?style=flat-square)](https://www.nuget.org/packages/CodePlus.Abp.Castle.NLog) 
+[![Github Build Status](https://github.com/CacoCode/CodePlus.Abp.Castle.NLog/workflows/masterbuild/badge.svg?branch=master)](https://github.com/CacoCode/CodePlus.Abp.Castle.NLog/actions?query=workflow%3Amasterbuild+branch%3Amaster)
+[![Build Status](https://dev.azure.com/CodesPlus/CodePlus.Abp.Castle.NLog/_apis/build/status/CacoCode.CodePlus.Abp.Castle.NLog?branchName=master)](https://dev.azure.com/CodesPlus/CodePlus.Abp.Castle.NLog/_build/latest?definitionId=1&branchName=master)
 
 ## 概述
 
-Abp NLog 集成Seq日志输出模块
+Abp NLog 集成Seq日志输出模块，版本跟随 ABP 版本
 
 ## Nuget
 
 | **名称** |      **Nuget**      |
 |----------|:-------------:|
-| **Magicodes.IE.Core** | **[![NuGet](https://buildstats.info/nuget/CodePlus.Abp.Castle.NLog)](https://www.nuget.org/packages/CodePlus.Abp.Castle.NLog)** |
+| **CodePlus.Abp.Castle.NLog** | **[![NuGet](https://buildstats.info/nuget/CodePlus.Abp.Castle.NLog)](https://www.nuget.org/packages/CodePlus.Abp.Castle.NLog)** |
 
 ## 使用
 
