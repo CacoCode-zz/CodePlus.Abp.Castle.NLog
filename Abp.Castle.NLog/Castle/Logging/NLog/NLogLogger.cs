@@ -32,9 +32,46 @@ namespace Abp.Castle.Logging.NLog
 
         public bool IsWarnEnabled => Logger.IsEnabled(NLogCore.LogLevel.Warn);
 
+        public bool IsTraceEnabled => Logger.IsEnabled(NLogCore.LogLevel.Trace);
+
         public ILogger CreateChildLogger(string loggerName)
         {
             return new NLogLogger(NLogCore.LogManager.GetLogger(Logger.Name + "." + loggerName));
+        }
+
+        public void Trace(string message)
+        {
+            Logger.Trace(message);
+        }
+
+        public void Trace(Func<string> messageFactory)
+        {
+            Logger.Trace(messageFactory);
+        }
+
+        public void Trace(string message, Exception exception)
+        {
+            Logger.Trace(exception, message);
+        }
+
+        public void TraceFormat(string format, params object[] args)
+        {
+            Logger.Trace(CultureInfo.InvariantCulture, format, args);
+        }
+
+        public void TraceFormat(Exception exception, string format, params object[] args)
+        {
+            Logger.Trace(exception, CultureInfo.InvariantCulture, format, args);
+        }
+
+        public void TraceFormat(IFormatProvider formatProvider, string format, params object[] args)
+        {
+            Logger.Trace(formatProvider, format, args);
+        }
+
+        public void TraceFormat(Exception exception, IFormatProvider formatProvider, string format, params object[] args)
+        {
+            Logger.Trace(exception, formatProvider, format, args);
         }
 
         public void Debug(string message)
