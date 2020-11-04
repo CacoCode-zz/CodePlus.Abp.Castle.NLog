@@ -81,7 +81,7 @@ Abp NLog 集成Seq日志输出模块
 
 3、Program 添加 UseNlog
 
-```cssharp
+```csharp
 public static IWebHost BuildWebHost(string[] args)
 {
     return WebHost.CreateDefaultBuilder(args)
@@ -92,7 +92,7 @@ public static IWebHost BuildWebHost(string[] args)
 ```
 
 4、Startup  ConfigureServices 配置Nlog注入
-```cssharp
+```csharp
 return services.AddAbp<CloudPlatformWebHostModule>(
     options => options.IocManager.IocContainer.AddFacility<LoggingFacility>(
         f => f.UseAbpNLog().WithConfig("nlog.config")
