@@ -10,7 +10,7 @@
     <RepositoryUrl>https://github.com/CacoCode/Abp.Castle.NLog</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>Abp NLog 集成Seq日志输出模块。</PackageReleaseNotes>
-    <Version>1.0.2</Version>
+    <Version>5.9.0</Version>
     <PackageProjectUrl>https://github.com/CacoCode/Abp.Castle.NLog</PackageProjectUrl>
     <Authors>CodePlus</Authors>
     <PackageId>CodePlus.Abp.Castle.NLog</PackageId>
