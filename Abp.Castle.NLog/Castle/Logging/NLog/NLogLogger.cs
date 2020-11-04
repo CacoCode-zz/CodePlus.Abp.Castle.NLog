@@ -11,7 +11,6 @@ namespace Abp.Castle.Logging.NLog
         ILogger
     {
         protected internal NLogCore.ILogger Logger { get; set; }
-        //protected internal NLogLoggerFactory Factory { get; set; }
 
         public NLogLogger(NLogCore.ILogger logger)
         {
