@@ -4,7 +4,7 @@
 
 ## 概述
 
-Abp NLog 集成Seq日志输出模块
+Abp NLog 集成Seq日志输出模块，版本跟随 ABP 版本
 
 ## Nuget
 
