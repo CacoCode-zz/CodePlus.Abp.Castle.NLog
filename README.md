@@ -1,6 +1,7 @@
 # CodePlus.Abp.Castle.NLog
 
 [![nuget](https://img.shields.io/nuget/v/CodePlus.Abp.Castle.NLog.svg?style=flat-square)](https://www.nuget.org/packages/CodePlus.Abp.Castle.NLog) 
+[![Github Build Status](https://github.com/CacoCode/CodePlus.Abp.Castle.NLog/workflows/.NET Core/badge.svg?branch=master)](https://github.com/CacoCode/CodePlus.Abp.Castle.NLog/actions?query=workflow%3A.NET Core+branch%3Amaster)
 
 ## 概述
 
