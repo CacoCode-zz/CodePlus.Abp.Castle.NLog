@@ -2,7 +2,7 @@
 
 [![nuget](https://img.shields.io/nuget/v/CodePlus.Abp.Castle.NLog.svg?style=flat-square)](https://www.nuget.org/packages/CodePlus.Abp.Castle.NLog) 
 [![Github Build Status](https://github.com/CacoCode/CodePlus.Abp.Castle.NLog/workflows/masterbuild/badge.svg?branch=master)](https://github.com/CacoCode/CodePlus.Abp.Castle.NLog/actions?query=workflow%3Amasterbuild+branch%3Amaster)
-[![Build Status](https://dev.azure.com/CodesPlus/CodePlus.Abp.Castle.NLog/_apis/build/status/CacoCode.CodePlus.Abp.Castle.NLog?branchName=master)]
+[![Build Status](https://dev.azure.com/CodesPlus/CodePlus.Abp.Castle.NLog/_apis/build/status/CacoCode.CodePlus.Abp.Castle.NLog?branchName=master)](https://dev.azure.com/CodesPlus/CodePlus.Abp.Castle.NLog/_build/latest?definitionId=1&branchName=master)
 
 ## 概述
 
