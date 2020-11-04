@@ -72,7 +72,7 @@ Abp NLog 集成Seq日志输出模块
     </target>
   </targets>
   <rules>
-    <!--<logger name="*" minlevel="Warn" writeTo="seq" />-->
+    <logger name="*" minlevel="Warn" writeTo="seq" />
     <logger name="*" levels="Trace,Debug,Info" writeTo="console,defaultLog" />
     <logger name="*" minlevel="Warn" writeTo="console,warnLog" />
   </rules>
