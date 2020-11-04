@@ -1,4 +1,4 @@
-name: dotnetcorebuild
+name: masterbuild
 
 on:
   push:
