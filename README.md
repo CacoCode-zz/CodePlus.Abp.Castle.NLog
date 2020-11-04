@@ -10,7 +10,7 @@ Abp NLog 集成Seq日志输出模块，版本跟随 ABP 版本
 
 | **名称** |      **Nuget**      |
 |----------|:-------------:|
-| **Magicodes.IE.Core** | **[![NuGet](https://buildstats.info/nuget/CodePlus.Abp.Castle.NLog)](https://www.nuget.org/packages/CodePlus.Abp.Castle.NLog)** |
+| **CodePlus.Abp.Castle.NLog** | **[![NuGet](https://buildstats.info/nuget/CodePlus.Abp.Castle.NLog)](https://www.nuget.org/packages/CodePlus.Abp.Castle.NLog)** |
 
 ## 使用
 
